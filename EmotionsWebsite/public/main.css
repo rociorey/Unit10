@@ -1,0 +1,103 @@
+body{
+  font-family: "Lucida Console", "Courier New", monospace;
+    /* background-image: url("../imgs/journalDots.png"); */
+    background-repeat: repeat;
+    background-size: cover;
+    /* background-size: 100%; */
+   
+
+}
+.topnav {
+  padding: 20px;
+  padding-left: 5vw;
+  height: 5vmin;
+  /* background-color: aquamarine; */
+}
+
+img{
+  position: fixed;
+  z-index: -1;
+  max-width: 85vw;
+  opacity: 30%;
+}
+
+h1{
+  /* padding-left: 2vmin; */
+  font-family: Arial, Helvetica, sans-serif;
+  font-variant-caps: all-small-caps;
+    font-size: 4vmin;
+    font-weight: normal;
+    /* text-decoration: underline; */
+    color: #496352;
+    /* text-decoration-color: #c5c3b2; */
+    /* text-decoration-thickness: 3vmin; */
+    letter-spacing: 5px;
+}
+
+p1 {
+  font-size: 3vmin;
+}
+
+p2 {
+  font-size: 3vmin;
+}
+
+label{
+  display: block;
+  color: #3b4940;
+  padding-bottom: 10px;
+}
+button{
+  /* padding:5px 15px;  */
+  background:#a0aca4; 
+  border: #3b4940;
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  color: whitesmoke;
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  .column {
+    /* margin: 5em; */
+    float: left;
+    width: 40%;
+    padding: 20px;
+    padding-left: 4vmin;
+    margin-top:10vw;
+    margin-left: 5vw;
+    margin-bottom: 18vw;
+    background-color:rgba(255,255,255,0.85);
+  }
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  input{
+    width: 180px;
+  }
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+    .column {
+      width: 85%;
+      padding: 10px;
+    }
+
+    label{
+      padding-bottom: 10px;
+    }
+
+    #iframe {
+      max-width: fit-content;
+    }
+    .topnav{
+      font-size: 3.5vmin;
+    }
+
+    }
