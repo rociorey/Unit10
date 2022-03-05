@@ -41,7 +41,7 @@ $( document ).ready(function() {
             if ($(this).val().toLowerCase().indexOf(triggerWords[i]) != -1) {
                 document.body.style.backgroundColor = "red";
                 var alertMsg ="Warning. You don't have access"
-                setTimeout(function(){alert(alertMsg)},60);
+                setTimeout(function(){alert(alertMsg)},30);
                 // alert("Warning. You don't have access");
                 setTimeout(function(){document.body.style.backgroundColor = "white"},100);
                 
