@@ -1,3 +1,7 @@
+body{
+    background-color: green;
+}
+
 input{
     display: block; 
     margin-left: auto; 
