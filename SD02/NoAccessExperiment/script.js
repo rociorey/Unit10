@@ -33,9 +33,8 @@
 //       $('#input').css({backgroundColor: 'your-color'});
 //     }
 //   });
-
+document.body.style.backgroundColor = "green"
 $( document ).ready(function() {
-    document.body.style.backgroundColor = "green";
     var triggerWords = ['dad', 'father','workshop','workshops', 'tools', 'tool', 'drill', 'coding', 'electronics', 'circuit', 'wood', 'guidance', 'hammer'];
     $(document).on('keyup', 'input', function() {
         for (var i = 0; i < triggerWords.length; i++) {
@@ -44,8 +43,8 @@ $( document ).ready(function() {
                 var alertMsg ="Warning. You don't have access"
                 setTimeout(function(){alert(alertMsg)},10);
                 // alert("Warning. You don't have access");
-                setTimeout(function(){document.body.style.backgroundColor = "white"},100);
-                
+                setTimeout(function(){document.body.style.backgroundColor = "green"},100);
+                input.value = " ";
                
                 
             }
