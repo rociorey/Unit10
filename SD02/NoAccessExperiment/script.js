@@ -43,8 +43,14 @@ $( document ).ready(function() {
                 var alertMsg ="Warning. You don't have access"
                 setTimeout(function(){alert(alertMsg)},10);
                 // alert("Warning. You don't have access");
-                setTimeout(function(){document.body.style.backgroundColor = "green"},100);
-                document.getElementById("myInput").value = "";
+                
+               
+               if (window.confirm('Ok'))
+{ 
+   document.getElementById("myInput").value = "";
+   setTimeout(function(){document.body.style.backgroundColor = "green"},100);
+}
+               
                
                 
             }
