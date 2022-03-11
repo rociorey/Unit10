@@ -33,7 +33,7 @@
 //       $('#input').css({backgroundColor: 'your-color'});
 //     }
 //   });
-document.body.style.backgroundColor = "green"
+document.body.style.backgroundColor = "green";
 $( document ).ready(function() {
     var triggerWords = ['dad', 'father','workshop','workshops', 'tools', 'tool', 'drill', 'coding', 'electronics', 'circuit', 'wood', 'guidance', 'hammer'];
     $(document).on('keyup', 'input', function() {
