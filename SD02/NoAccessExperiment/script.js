@@ -45,14 +45,10 @@ $( document ).ready(function() {
                 setTimeout(function(){alert(alertMsg)},10);
                 // alert("Warning. You don't have access");
                 
-               
-               if (window.confirm('OK'))
-{ 
-   document.getElementById("myInput").value = "";
-   setTimeout(function(){document.body.style.backgroundColor = "#97ECAE"},100);
-}
-               
-               
+              setTimeout(function(){document.body.style.backgroundColor = "#97ECAE"},100);
+ document.getElementById("myInput").value = "";
+   
+                    
                 
             }
         }
