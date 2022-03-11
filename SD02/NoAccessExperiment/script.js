@@ -33,7 +33,8 @@
 //       $('#input').css({backgroundColor: 'your-color'});
 //     }
 //   });
-document.body.style.backgroundColor = "green";
+// document.body.style.backgroundColor = "green";
+
 $( document ).ready(function() {
     var triggerWords = ['dad', 'father','workshop','workshops', 'tools', 'tool', 'drill', 'coding', 'electronics', 'circuit', 'wood', 'guidance', 'hammer'];
     $(document).on('keyup', 'input', function() {
@@ -45,10 +46,10 @@ $( document ).ready(function() {
                 // alert("Warning. You don't have access");
                 
                
-               if (window.confirm('Ok'))
+               if (window.confirm('OK'))
 { 
    document.getElementById("myInput").value = "";
-   setTimeout(function(){document.body.style.backgroundColor = "green"},100);
+   setTimeout(function(){document.body.style.backgroundColor = "#97ECAE"},100);
 }
                
                
