@@ -40,7 +40,7 @@ $( document ).ready(function() {
     $(document).on('keyup', 'input', function() {
         for (var i = 0; i < triggerWords.length; i++) {
             if ($(this).val().toLowerCase().indexOf(triggerWords[i]) != -1) {
-                document.body.style.backgroundColor = "red";
+                document.body.style.backgroundColor = "#DC002C";
                 var alertMsg ="Warning. You don't have access"
                 setTimeout(function(){alert(alertMsg)},10);
                 // alert("Warning. You don't have access");
