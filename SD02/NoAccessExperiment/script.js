@@ -44,7 +44,7 @@ $( document ).ready(function() {
                 setTimeout(function(){alert(alertMsg)},10);
                 // alert("Warning. You don't have access");
                 setTimeout(function(){document.body.style.backgroundColor = "green"},100);
-                document.getElementById('myInput').value = '';
+                document.getElementById("myInput").value = "";
                
                 
             }
