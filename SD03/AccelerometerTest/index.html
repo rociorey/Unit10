@@ -26,6 +26,7 @@ function getAccel(){
     DeviceMotionEvent.requestPermission().then(response => {
         if (response == 'granted') {
        // Add a listener to get smartphone orientation 
+             console.log("accelerometer permission granted");
            // in the alpha-beta-gamma axes (units in degrees)
             window.addEventListener('deviceorientation',(event) => {
                 // Expose each orientation angle in a more readable way
