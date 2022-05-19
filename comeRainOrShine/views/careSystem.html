@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Remote care</title>
+        <meta harset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel='stylesheet' href= "careSystem.css">
+        <link rel="shortcut icon" type="image/jpg" href="/imgs/favicon.png"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/p5.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.8.0/addons/p5.dom.min.js"></script>
+        <!-- <script src="/libraries/p5.min.js"></script> -->
+   
+        
+    <!-- Google Font setup -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@100&display=swap"
+      rel="stylesheet"
+    />
+    
+    </head>
+
+    <body>
+
+       <!-- <span><a href="spanish.html">Español</a></span> -->
+       <a class="draw" href="careSystem.html">Care system</a>
+       <a class="help" class="help " href="help.html">Help</a>
+        <div class="modeButtons">
+          <!-- app mode buttons -->
+          
+
+          <div class="careBox">
+        <!-- <p1>This slider activates sensors which take care çof your daughter's plant. Every time you genuinely share, the plant will be watered or sunlit. Remember every emotion is neede for the plant to survive!</p> -->
+        <label for="emotion">How are you feeling?</label>
+      </div>
+         
+        </div>
+        
+        <!-- <div class="column">
+          <div id="p5Canvas"></div>
+      </div> -->
+
+        <!-- p5.js sketch -->
+    <div id="p5Canvas">
+      <canvas id="myCanvas" width="100%" height="100%" style="display:none;">
+        </canvas>
+    </div>
+      </div>
+      
+    </body>
+
+
+<script src="/socket.io/socket.io.js"></script>
+<script src="data.js"></script>
+</html>
