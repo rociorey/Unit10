@@ -1,0 +1,182 @@
+html {
+  font-family: 'Lato', sans-serif;
+  cursor: default;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  cursor: url('green-cursor-arrow.png'), auto;
+}
+
+body{
+  font-family: 'Lato', sans-serif;
+    font-size:  30px;
+    line-height: 1.4;
+    background-color: #026440;
+    color: #eef8f3;
+    margin: 100px auto auto auto;
+    width: 640px;
+   
+    z-index:  1;
+}
+
+.modeButtons {
+  margin: 0 0 0 -2px;
+  position: fixed;
+}
+
+.topnav {
+  padding: 20px;
+  padding-left: 5vw;
+  height: 5vmin;
+}
+
+h1{
+  padding-bottom: 2vmin;
+  text-align: center;
+  font-variant-caps: all-small-caps;
+    font-size: 3.5vmin;
+    font-weight: normal;
+    color: #026440;
+    letter-spacing: 4px;
+}
+.careBox {
+  width: 480px;
+  top:  240px;
+  left: 50%;
+  transform: translate(-50%);
+  position: fixed;
+  color:#026440;
+  text-align: center;
+}
+.helpBox {
+  width: 480px;
+  top:  240px;
+  left: 50%;
+  transform: translate(-50%);
+  position: fixed;
+  color:#eef8f3;
+  text-align: center;
+}
+
+p1 {
+  text-align: center;
+
+}
+
+
+label{
+  display: block;
+  padding-bottom: 3px;
+  padding-top: 3px;
+  /* padding-left: 10px; */
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  font-size: 24px;
+  font-weight: 700;
+  color: #026440;
+  text-decoration: none;
+  border: 2px solid #eef8f3;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+button{
+  cursor:pointer;
+  -webkit-border-radius: 5px;
+  border-radius: 5px; 
+  font-size: 14px;
+  font-weight: 700;
+  color: #026440;
+  text-decoration: none;
+  border: 2px solid #eef8f3;
+  border-radius: 20px;
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+}
+
+button:hover {
+  color: #eef8f3;
+  background-color: #026440;
+}
+
+* { 
+     box-sizing: border-box; 
+  } 
+  
+   #p5Canvas {
+    width: 640px;
+    height: 480px;
+    display: block;
+    position: fixed;
+    top: 139px;
+    left: 50%;
+    transform: translate(-50%);
+    border: 2px solid #eef8f3;
+    z-index: -9999;
+  }
+  a {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #eef8f3;
+    text-decoration: none;
+    border: 2px solid #eef8f3;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+  a.help{
+      padding: 10px 30px 10px 30px;
+  }
+  a:hover {
+    color: #026440;
+    background-color: #eef8f3;
+  }
+  
+  
+  /* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+  @media screen and (max-width:600px) {
+   
+    #p5Canvas {
+      width: 240px;
+      height: 180px;
+      display: block;
+      position: fixed;
+      top: 139px;
+      left: 50%;
+      transform: translate(-50%);
+      border: 2px solid #1f71b4;
+      z-index: -9999;
+    }
+    .careBox {
+      font-family: 'Lato', sans-serif;
+      width: 2300px;
+      top:  140px;
+      left: 50%;
+      transform: translate(-50%);
+      position: fixed;
+      color:#1f71b4;
+      text-align: center;
+    }
+    body.noscroll{
+      overflow:hidden;
+      position:fixed;
+      }
+    /* .column {
+      width: 85%;
+      padding: 10px;
+    }
+
+    label{
+      padding-bottom: 10px;
+    }
+
+    .topnav{
+      font-size: 3.5vmin;
+    } */
+
+    }
+
+    

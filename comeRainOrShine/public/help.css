@@ -1,0 +1,38 @@
+a {
+    font-family: 'Lato', sans-serif;
+    font-size: 21px;
+    font-weight: 700;
+    color: #eef8f3;
+    text-decoration: none;
+    border: 2px solid #eef8f3;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 20px 10px 20px;
+    text-align: center;
+  }
+
+  a:hover {
+    color: #026440;
+    background-color: #eef8f3;
+  }
+  
+  a.help {
+    font-family: 'Lato', sans-serif;
+   
+    font-weight: 600;
+    color: #026440;
+    background-color: #eef8f3;
+    text-decoration: none;
+    border: 2px solid #eef8f3;
+    border-radius: 20px 20px 0 0;
+    padding: 10px 30px 10px 30px;
+    text-align: center;
+  }
+  .helpBox {
+    width: 480px;
+    font-size: 24px;
+    top:  240px;
+    left: 50%;
+    transform: translate(-50%);
+    position: fixed;
+    color:#eef8f3;
+  }
